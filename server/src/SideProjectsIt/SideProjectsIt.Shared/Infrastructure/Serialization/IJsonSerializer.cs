@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Inflow.Shared.Infrastructure.Serialization;
+namespace SideProjectsIt.Shared.Infrastructure.Serialization;
 
 public interface IJsonSerializer
 {

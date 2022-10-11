@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using Inflow.Shared.Infrastructure.Postgres.Decorators;
+using SideProjectsIt.Shared.Infrastructure.Postgres.Decorators;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
-using Inflow.Shared.Abstractions.Commands;
-using Inflow.Shared.Abstractions.Events;
-using Inflow.Shared.Abstractions.Queries;
+using SideProjectsIt.Shared.Abstractions.Commands;
+using SideProjectsIt.Shared.Abstractions.Events;
+using SideProjectsIt.Shared.Abstractions.Queries;
 
-namespace Inflow.Shared.Infrastructure.Postgres;
+namespace SideProjectsIt.Shared.Infrastructure.Postgres;
 
 public static class Extensions
 {

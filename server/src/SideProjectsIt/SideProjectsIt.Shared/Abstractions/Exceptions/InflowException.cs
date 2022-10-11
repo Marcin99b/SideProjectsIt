@@ -1,10 +1,10 @@
 ﻿using System;
 
-namespace Inflow.Shared.Abstractions.Exceptions;
+namespace SideProjectsIt.Shared.Abstractions.Exceptions;
 
-public abstract class InflowException : Exception
+public abstract class SideProjectsItException : Exception
 {
-    protected InflowException(string message) : base(message)
+    protected SideProjectsItException(string message) : base(message)
     {
     }
 }

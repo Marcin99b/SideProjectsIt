@@ -2,17 +2,17 @@ using System;
 using System.Linq;
 using System.Threading.Tasks;
 using Humanizer;
-using Inflow.Shared.Infrastructure.Contexts;
-using Inflow.Shared.Infrastructure.Messaging.Contexts;
-using Inflow.Shared.Infrastructure.Messaging.Dispatchers;
-using Inflow.Shared.Infrastructure.Serialization;
+using SideProjectsIt.Shared.Infrastructure.Contexts;
+using SideProjectsIt.Shared.Infrastructure.Messaging.Contexts;
+using SideProjectsIt.Shared.Infrastructure.Messaging.Dispatchers;
+using SideProjectsIt.Shared.Infrastructure.Serialization;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
-using Inflow.Shared.Abstractions.Messaging;
-using Inflow.Shared.Abstractions.Modules;
-using Inflow.Shared.Abstractions.Time;
+using SideProjectsIt.Shared.Abstractions.Messaging;
+using SideProjectsIt.Shared.Abstractions.Modules;
+using SideProjectsIt.Shared.Abstractions.Time;
 
-namespace Inflow.Shared.Infrastructure.Messaging.Outbox;
+namespace SideProjectsIt.Shared.Infrastructure.Messaging.Outbox;
 
 internal sealed class EfOutbox<T> : IOutbox where T : DbContext
 {

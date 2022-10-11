@@ -1,4 +1,4 @@
-﻿namespace Inflow.Shared.Infrastructure.Cache;
+﻿namespace SideProjectsIt.Shared.Infrastructure.Cache;
 
 public class RedisOptions
 {

@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Inflow.Shared.Infrastructure.Auth;
+namespace SideProjectsIt.Shared.Infrastructure.Auth;
 
 public class AuthOptions
 {

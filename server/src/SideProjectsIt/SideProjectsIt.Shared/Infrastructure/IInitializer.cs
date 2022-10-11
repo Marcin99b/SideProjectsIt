@@ -1,6 +1,6 @@
 using System.Threading.Tasks;
 
-namespace Inflow.Shared.Infrastructure;
+namespace SideProjectsIt.Shared.Infrastructure;
 
 public interface IInitializer
 {

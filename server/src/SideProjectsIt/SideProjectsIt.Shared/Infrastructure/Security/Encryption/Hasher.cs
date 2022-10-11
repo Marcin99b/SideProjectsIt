@@ -1,7 +1,7 @@
 using System.Security.Cryptography;
 using System.Text;
 
-namespace Inflow.Shared.Infrastructure.Security.Encryption;
+namespace SideProjectsIt.Shared.Infrastructure.Security.Encryption;
 
 internal sealed class Hasher : IHasher
 {

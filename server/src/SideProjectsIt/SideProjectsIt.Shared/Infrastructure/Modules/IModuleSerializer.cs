@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Inflow.Shared.Infrastructure.Modules;
+namespace SideProjectsIt.Shared.Infrastructure.Modules;
 
 public interface IModuleSerializer
 {

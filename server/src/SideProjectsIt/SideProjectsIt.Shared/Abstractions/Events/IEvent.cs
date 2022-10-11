@@ -1,6 +1,6 @@
-﻿using Inflow.Shared.Abstractions.Messaging;
+﻿using SideProjectsIt.Shared.Abstractions.Messaging;
 
-namespace Inflow.Shared.Abstractions.Events;
+namespace SideProjectsIt.Shared.Abstractions.Events;
 
 // Marker
 public interface IEvent : IMessage

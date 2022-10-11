@@ -1,10 +1,10 @@
 ﻿using System.Collections.Generic;
 using System.Reflection;
-using Inflow.Shared.Infrastructure.Queries.Decorators;
+using SideProjectsIt.Shared.Infrastructure.Queries.Decorators;
 using Microsoft.Extensions.DependencyInjection;
-using Inflow.Shared.Abstractions.Queries;
+using SideProjectsIt.Shared.Abstractions.Queries;
 
-namespace Inflow.Shared.Infrastructure.Queries;
+namespace SideProjectsIt.Shared.Infrastructure.Queries;
 
 public static class Extensions
 {

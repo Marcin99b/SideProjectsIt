@@ -1,7 +1,7 @@
 ﻿using System;
-using Inflow.Shared.Abstractions.Exceptions;
+using SideProjectsIt.Shared.Abstractions.Exceptions;
 
-namespace Inflow.Shared.Infrastructure.Exceptions;
+namespace SideProjectsIt.Shared.Infrastructure.Exceptions;
 
 public interface IExceptionCompositionRoot
 {

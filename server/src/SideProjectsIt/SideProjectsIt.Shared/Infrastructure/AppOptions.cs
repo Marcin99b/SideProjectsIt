@@ -1,4 +1,4 @@
-namespace Inflow.Shared.Infrastructure;
+namespace SideProjectsIt.Shared.Infrastructure;
 
 public class AppOptions
 {

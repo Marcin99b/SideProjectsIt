@@ -3,10 +3,10 @@ using System.Threading;
 using System.Threading.Tasks;
 using Humanizer;
 using Microsoft.Extensions.DependencyInjection;
-using Inflow.Shared.Abstractions.Events;
-using Inflow.Shared.Abstractions.Messaging;
+using SideProjectsIt.Shared.Abstractions.Events;
+using SideProjectsIt.Shared.Abstractions.Messaging;
 
-namespace Inflow.Shared.Infrastructure.Messaging.Outbox;
+namespace SideProjectsIt.Shared.Infrastructure.Messaging.Outbox;
 
 [Decorator]
 internal sealed class InboxEventHandlerDecorator<T> : IEventHandler<T> where T : class, IEvent

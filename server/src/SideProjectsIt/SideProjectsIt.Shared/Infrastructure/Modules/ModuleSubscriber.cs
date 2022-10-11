@@ -2,9 +2,9 @@
 using System.Threading;
 using System.Threading.Tasks;
 using Microsoft.Extensions.DependencyInjection;
-using Inflow.Shared.Abstractions.Modules;
+using SideProjectsIt.Shared.Abstractions.Modules;
 
-namespace Inflow.Shared.Infrastructure.Modules;
+namespace SideProjectsIt.Shared.Infrastructure.Modules;
 
 internal sealed class ModuleSubscriber : IModuleSubscriber
 {

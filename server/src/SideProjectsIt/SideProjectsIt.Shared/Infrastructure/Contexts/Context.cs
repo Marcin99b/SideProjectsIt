@@ -1,9 +1,9 @@
 ﻿using System;
 using Microsoft.AspNetCore.Http;
-using Inflow.Shared.Abstractions.Contexts;
-using Inflow.Shared.Infrastructure.Api;
+using SideProjectsIt.Shared.Abstractions.Contexts;
+using SideProjectsIt.Shared.Infrastructure.Api;
 
-namespace Inflow.Shared.Infrastructure.Contexts;
+namespace SideProjectsIt.Shared.Infrastructure.Contexts;
 
 public class Context : IContext
 {

@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
 using System.Reflection;
 using Microsoft.Extensions.DependencyInjection;
-using Inflow.Shared.Abstractions.Events;
+using SideProjectsIt.Shared.Abstractions.Events;
 
-namespace Inflow.Shared.Infrastructure.Events;
+namespace SideProjectsIt.Shared.Infrastructure.Events;
 
 public static class Extensions
 {

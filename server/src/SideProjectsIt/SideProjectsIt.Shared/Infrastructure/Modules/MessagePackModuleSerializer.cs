@@ -1,7 +1,7 @@
 using System;
 using MessagePack;
 
-namespace Inflow.Shared.Infrastructure.Modules;
+namespace SideProjectsIt.Shared.Infrastructure.Modules;
 
 internal class MessagePackModuleSerializer : IModuleSerializer
 {

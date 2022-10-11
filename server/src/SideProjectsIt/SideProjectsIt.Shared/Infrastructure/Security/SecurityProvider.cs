@@ -1,7 +1,7 @@
 using System.Text.Encodings.Web;
-using Inflow.Shared.Infrastructure.Security.Encryption;
+using SideProjectsIt.Shared.Infrastructure.Security.Encryption;
 
-namespace Inflow.Shared.Infrastructure.Security;
+namespace SideProjectsIt.Shared.Infrastructure.Security;
 
 internal sealed class SecurityProvider : ISecurityProvider
 {

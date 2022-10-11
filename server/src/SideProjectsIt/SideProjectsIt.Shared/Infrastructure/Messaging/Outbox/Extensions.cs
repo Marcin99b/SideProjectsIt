@@ -1,8 +1,8 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
-using Inflow.Shared.Abstractions.Events;
+using SideProjectsIt.Shared.Abstractions.Events;
 
-namespace Inflow.Shared.Infrastructure.Messaging.Outbox;
+namespace SideProjectsIt.Shared.Infrastructure.Messaging.Outbox;
 
 public static class Extensions
 {

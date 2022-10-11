@@ -3,7 +3,7 @@ using System.Reflection;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Controllers;
 
-namespace Inflow.Shared.Infrastructure.Api;
+namespace SideProjectsIt.Shared.Infrastructure.Api;
 
 internal sealed class InternalControllerFeatureProvider : ControllerFeatureProvider
 {

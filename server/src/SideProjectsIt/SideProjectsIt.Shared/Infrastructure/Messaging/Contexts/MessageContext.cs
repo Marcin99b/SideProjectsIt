@@ -1,8 +1,8 @@
 ﻿using System;
-using Inflow.Shared.Abstractions.Contexts;
-using Inflow.Shared.Abstractions.Messaging;
+using SideProjectsIt.Shared.Abstractions.Contexts;
+using SideProjectsIt.Shared.Abstractions.Messaging;
 
-namespace Inflow.Shared.Infrastructure.Messaging.Contexts;
+namespace SideProjectsIt.Shared.Infrastructure.Messaging.Contexts;
 
 public class MessageContext : IMessageContext
 {

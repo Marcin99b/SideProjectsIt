@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Inflow.Shared.Abstractions.Queries;
+namespace SideProjectsIt.Shared.Abstractions.Queries;
 
 public class Paged<T> : PagedBase
 {

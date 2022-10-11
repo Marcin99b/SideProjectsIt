@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Inflow.Shared.Infrastructure.Serialization;
+using SideProjectsIt.Shared.Infrastructure.Serialization;
 using StackExchange.Redis;
 
-namespace Inflow.Shared.Infrastructure.Cache;
+namespace SideProjectsIt.Shared.Infrastructure.Cache;
 
 public sealed class RedisCache : ICache
 {

@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using Inflow.Shared.Abstractions.Messaging;
+using SideProjectsIt.Shared.Abstractions.Messaging;
 
-namespace Inflow.Shared.Infrastructure.Messaging.Outbox;
+namespace SideProjectsIt.Shared.Infrastructure.Messaging.Outbox;
 
 internal sealed class OutboxTypeRegistry
 {

@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Inflow.Shared.Infrastructure.Modules;
+namespace SideProjectsIt.Shared.Infrastructure.Modules;
 
 internal class ModuleInfoProvider
 {

@@ -2,7 +2,7 @@ using System;
 using System.Linq;
 using System.Security.Cryptography;
 
-namespace Inflow.Shared.Infrastructure.Security.Encryption;
+namespace SideProjectsIt.Shared.Infrastructure.Security.Encryption;
 
 internal sealed class Rng : IRng
 {

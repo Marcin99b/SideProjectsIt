@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Threading.Tasks;
-using Inflow.Shared.Abstractions.Messaging;
+using SideProjectsIt.Shared.Abstractions.Messaging;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Inflow.Shared.Infrastructure.Messaging.Outbox;
+namespace SideProjectsIt.Shared.Infrastructure.Messaging.Outbox;
 
 internal sealed class OutboxBroker : IOutboxBroker
 {

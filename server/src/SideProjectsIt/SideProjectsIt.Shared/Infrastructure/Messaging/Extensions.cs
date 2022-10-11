@@ -1,10 +1,10 @@
-﻿using Inflow.Shared.Infrastructure.Messaging.Brokers;
-using Inflow.Shared.Infrastructure.Messaging.Contexts;
-using Inflow.Shared.Infrastructure.Messaging.Dispatchers;
+﻿using SideProjectsIt.Shared.Infrastructure.Messaging.Brokers;
+using SideProjectsIt.Shared.Infrastructure.Messaging.Contexts;
+using SideProjectsIt.Shared.Infrastructure.Messaging.Dispatchers;
 using Microsoft.Extensions.DependencyInjection;
-using Inflow.Shared.Abstractions.Messaging;
+using SideProjectsIt.Shared.Abstractions.Messaging;
 
-namespace Inflow.Shared.Infrastructure.Messaging;
+namespace SideProjectsIt.Shared.Infrastructure.Messaging;
 
 public static class Extensions
 {

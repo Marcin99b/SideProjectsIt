@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Inflow.Shared.Abstractions.Exceptions;
+namespace SideProjectsIt.Shared.Abstractions.Exceptions;
 
 public interface IExceptionToResponseMapper
 {

@@ -3,7 +3,7 @@ using System.Reflection;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Inflow.Shared.Infrastructure.Contracts;
+namespace SideProjectsIt.Shared.Infrastructure.Contracts;
 
 public static class Extensions
 {

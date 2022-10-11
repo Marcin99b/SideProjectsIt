@@ -9,11 +9,11 @@ using Microsoft.AspNetCore.Routing;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Inflow.Shared.Abstractions.Commands;
-using Inflow.Shared.Abstractions.Events;
-using Inflow.Shared.Abstractions.Modules;
+using SideProjectsIt.Shared.Abstractions.Commands;
+using SideProjectsIt.Shared.Abstractions.Events;
+using SideProjectsIt.Shared.Abstractions.Modules;
 
-namespace Inflow.Shared.Infrastructure.Modules;
+namespace SideProjectsIt.Shared.Infrastructure.Modules;
 
 public static class Extensions
 {

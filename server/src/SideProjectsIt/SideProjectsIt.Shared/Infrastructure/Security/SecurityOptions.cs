@@ -1,4 +1,4 @@
-namespace Inflow.Shared.Infrastructure.Security;
+namespace SideProjectsIt.Shared.Infrastructure.Security;
 
 internal sealed class SecurityOptions
 {

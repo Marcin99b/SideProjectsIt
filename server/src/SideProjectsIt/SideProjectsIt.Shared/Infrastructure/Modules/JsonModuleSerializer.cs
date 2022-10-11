@@ -2,7 +2,7 @@
 using System.Text;
 using System.Text.Json;
 
-namespace Inflow.Shared.Infrastructure.Modules;
+namespace SideProjectsIt.Shared.Infrastructure.Modules;
 
 internal sealed class JsonModuleSerializer : IModuleSerializer
 {

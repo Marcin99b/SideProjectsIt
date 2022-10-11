@@ -1,8 +1,8 @@
-﻿using Inflow.Shared.Abstractions.Exceptions;
+﻿using SideProjectsIt.Shared.Abstractions.Exceptions;
 
-namespace Inflow.Shared.Abstractions.Kernel.Exceptions;
+namespace SideProjectsIt.Shared.Abstractions.Kernel.Exceptions;
 
-public class InvalidAmountException : InflowException
+public class InvalidAmountException : SideProjectsItException
 {
     public decimal Amount { get; }
 

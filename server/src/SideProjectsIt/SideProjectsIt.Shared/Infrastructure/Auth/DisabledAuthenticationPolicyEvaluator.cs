@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Authorization.Policy;
 using Microsoft.AspNetCore.Http;
 
-namespace Inflow.Shared.Infrastructure.Auth;
+namespace SideProjectsIt.Shared.Infrastructure.Auth;
 
 public sealed class DisabledAuthenticationPolicyEvaluator : IPolicyEvaluator
 {

@@ -2,7 +2,7 @@
 using System.Text.Json;
 using System.Text.Json.Serialization;
 
-namespace Inflow.Shared.Infrastructure.Serialization;
+namespace SideProjectsIt.Shared.Infrastructure.Serialization;
 
 public class SystemTextJsonSerializer : IJsonSerializer
 {

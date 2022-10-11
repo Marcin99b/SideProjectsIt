@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Inflow.Shared.Infrastructure.Contexts;
+namespace SideProjectsIt.Shared.Infrastructure.Contexts;
 
 public static class Extensions
 {

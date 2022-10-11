@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Inflow.Shared.Abstractions.Kernel.Types;
+namespace SideProjectsIt.Shared.Abstractions.Kernel.Types;
 
 public abstract class TypeId : IEquatable<TypeId>
 {

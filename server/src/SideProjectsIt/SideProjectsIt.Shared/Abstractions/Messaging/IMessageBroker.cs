@@ -1,7 +1,7 @@
 ﻿using System.Threading;
 using System.Threading.Tasks;
 
-namespace Inflow.Shared.Abstractions.Messaging;
+namespace SideProjectsIt.Shared.Abstractions.Messaging;
 
 public interface IMessageBroker
 {

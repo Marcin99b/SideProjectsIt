@@ -1,8 +1,8 @@
 using System;
 using System.Text.RegularExpressions;
-using Inflow.Shared.Abstractions.Kernel.Exceptions;
+using SideProjectsIt.Shared.Abstractions.Kernel.Exceptions;
 
-namespace Inflow.Shared.Abstractions.Kernel.ValueObjects;
+namespace SideProjectsIt.Shared.Abstractions.Kernel.ValueObjects;
 
 public class Email : IEquatable<Email>
 {

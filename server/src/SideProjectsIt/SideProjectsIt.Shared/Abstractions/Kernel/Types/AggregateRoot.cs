@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 
-namespace Inflow.Shared.Abstractions.Kernel.Types;
+namespace SideProjectsIt.Shared.Abstractions.Kernel.Types;
 
 public abstract class AggregateRoot<T>
 {

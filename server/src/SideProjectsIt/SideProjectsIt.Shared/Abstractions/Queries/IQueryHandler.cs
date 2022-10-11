@@ -1,7 +1,7 @@
 ﻿using System.Threading;
 using System.Threading.Tasks;
 
-namespace Inflow.Shared.Abstractions.Queries;
+namespace SideProjectsIt.Shared.Abstractions.Queries;
 
 public interface IQueryHandler<in TQuery, TResult> where TQuery : class, IQuery<TResult>
 {

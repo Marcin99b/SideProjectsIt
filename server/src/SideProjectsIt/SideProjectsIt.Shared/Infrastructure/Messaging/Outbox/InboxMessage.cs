@@ -1,6 +1,6 @@
 using System;
 
-namespace Inflow.Shared.Infrastructure.Messaging.Outbox;
+namespace SideProjectsIt.Shared.Infrastructure.Messaging.Outbox;
 
 public class InboxMessage
 {

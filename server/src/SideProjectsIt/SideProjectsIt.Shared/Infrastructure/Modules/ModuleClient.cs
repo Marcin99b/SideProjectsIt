@@ -5,12 +5,12 @@ using System.Linq;
 using System.Reflection;
 using System.Threading;
 using System.Threading.Tasks;
-using Inflow.Shared.Infrastructure.Messaging.Contexts;
-using Inflow.Shared.Abstractions.Commands;
-using Inflow.Shared.Abstractions.Messaging;
-using Inflow.Shared.Abstractions.Modules;
+using SideProjectsIt.Shared.Infrastructure.Messaging.Contexts;
+using SideProjectsIt.Shared.Abstractions.Commands;
+using SideProjectsIt.Shared.Abstractions.Messaging;
+using SideProjectsIt.Shared.Abstractions.Modules;
 
-namespace Inflow.Shared.Infrastructure.Modules;
+namespace SideProjectsIt.Shared.Infrastructure.Modules;
 
 internal sealed class ModuleClient : IModuleClient
 {

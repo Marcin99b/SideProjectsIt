@@ -1,7 +1,7 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using StackExchange.Redis;
 
-namespace Inflow.Shared.Infrastructure.Cache;
+namespace SideProjectsIt.Shared.Infrastructure.Cache;
 
 public static class Extensions
 {

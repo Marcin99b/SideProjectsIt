@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Linq;
 using Microsoft.Extensions.DependencyInjection;
-using Inflow.Shared.Abstractions.Exceptions;
+using SideProjectsIt.Shared.Abstractions.Exceptions;
 
-namespace Inflow.Shared.Infrastructure.Exceptions;
+namespace SideProjectsIt.Shared.Infrastructure.Exceptions;
 
 internal sealed class ExceptionCompositionRoot : IExceptionCompositionRoot
 {

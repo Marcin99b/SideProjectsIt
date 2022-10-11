@@ -1,4 +1,4 @@
-namespace Inflow.Shared.Infrastructure.Security.Encryption;
+namespace SideProjectsIt.Shared.Infrastructure.Security.Encryption;
 
 public interface IHasher
 {

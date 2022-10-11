@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading.Tasks;
 
-namespace Inflow.Shared.Infrastructure.Postgres;
+namespace SideProjectsIt.Shared.Infrastructure.Postgres;
 
 public interface IUnitOfWork
 {

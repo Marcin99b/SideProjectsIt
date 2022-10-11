@@ -1,4 +1,4 @@
-namespace Inflow.Shared.Infrastructure.Logging.Options;
+namespace SideProjectsIt.Shared.Infrastructure.Logging.Options;
 
 public class FileOptions
 {

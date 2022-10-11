@@ -1,7 +1,7 @@
 ﻿using System.Threading;
 using System.Threading.Tasks;
 
-namespace Inflow.Shared.Abstractions.Kernel;
+namespace SideProjectsIt.Shared.Abstractions.Kernel;
 
 public interface IDomainEventDispatcher
 {

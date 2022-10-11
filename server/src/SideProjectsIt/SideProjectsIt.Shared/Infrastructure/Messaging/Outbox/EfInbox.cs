@@ -3,9 +3,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
-using Inflow.Shared.Abstractions.Time;
+using SideProjectsIt.Shared.Abstractions.Time;
 
-namespace Inflow.Shared.Infrastructure.Messaging.Outbox;
+namespace SideProjectsIt.Shared.Infrastructure.Messaging.Outbox;
 
 internal sealed class EfInbox<T> : IInbox where T : DbContext
 {

@@ -5,7 +5,7 @@ using System.Reflection;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Inflow.Shared.Infrastructure.Api;
+namespace SideProjectsIt.Shared.Infrastructure.Api;
 
 public static class Extensions
 {

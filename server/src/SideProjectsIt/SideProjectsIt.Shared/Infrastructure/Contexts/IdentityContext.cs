@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Security.Claims;
-using Inflow.Shared.Abstractions.Contexts;
+using SideProjectsIt.Shared.Abstractions.Contexts;
 
-namespace Inflow.Shared.Infrastructure.Contexts;
+namespace SideProjectsIt.Shared.Infrastructure.Contexts;
 
 public class IdentityContext : IIdentityContext
 {

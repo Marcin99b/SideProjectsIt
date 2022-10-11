@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using System.Reflection;
 
-namespace Inflow.Shared.Infrastructure.Contracts;
+namespace SideProjectsIt.Shared.Infrastructure.Contracts;
 
 public interface IContractRegistry
 {

@@ -3,15 +3,15 @@ using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 using Humanizer;
-using Inflow.Shared.Abstractions.Contexts;
-using Inflow.Shared.Infrastructure.Messaging.Contexts;
-using Inflow.Shared.Infrastructure.Messaging.Dispatchers;
-using Inflow.Shared.Infrastructure.Messaging.Outbox;
+using SideProjectsIt.Shared.Abstractions.Contexts;
+using SideProjectsIt.Shared.Infrastructure.Messaging.Contexts;
+using SideProjectsIt.Shared.Infrastructure.Messaging.Dispatchers;
+using SideProjectsIt.Shared.Infrastructure.Messaging.Outbox;
 using Microsoft.Extensions.Logging;
-using Inflow.Shared.Abstractions.Messaging;
-using Inflow.Shared.Abstractions.Modules;
+using SideProjectsIt.Shared.Abstractions.Messaging;
+using SideProjectsIt.Shared.Abstractions.Modules;
 
-namespace Inflow.Shared.Infrastructure.Messaging.Brokers;
+namespace SideProjectsIt.Shared.Infrastructure.Messaging.Brokers;
 
 internal sealed class InMemoryMessageBroker : IMessageBroker
 {

@@ -1,7 +1,7 @@
 ﻿using System;
-using Inflow.Shared.Abstractions.Kernel.Exceptions;
+using SideProjectsIt.Shared.Abstractions.Kernel.Exceptions;
 
-namespace Inflow.Shared.Abstractions.Kernel.ValueObjects;
+namespace SideProjectsIt.Shared.Abstractions.Kernel.ValueObjects;
 
 public class FullName : IEquatable<FullName>
 {

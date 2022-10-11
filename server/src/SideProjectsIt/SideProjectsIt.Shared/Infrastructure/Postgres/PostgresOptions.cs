@@ -1,4 +1,4 @@
-﻿namespace Inflow.Shared.Infrastructure.Postgres;
+﻿namespace SideProjectsIt.Shared.Infrastructure.Postgres;
 
 public class PostgresOptions
 {

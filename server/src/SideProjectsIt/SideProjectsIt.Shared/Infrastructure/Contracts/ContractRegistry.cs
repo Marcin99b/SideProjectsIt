@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using System.Runtime.Serialization;
-using Inflow.Shared.Abstractions.Contracts;
-using Inflow.Shared.Abstractions.Messaging;
-using Inflow.Shared.Infrastructure.Modules;
+using SideProjectsIt.Shared.Abstractions.Contracts;
+using SideProjectsIt.Shared.Abstractions.Messaging;
+using SideProjectsIt.Shared.Infrastructure.Modules;
 using Microsoft.Extensions.Logging;
 
-namespace Inflow.Shared.Infrastructure.Contracts;
+namespace SideProjectsIt.Shared.Infrastructure.Contracts;
 
 internal sealed class ContractRegistry : IContractRegistry
 {
@@ -121,7 +121,7 @@ internal sealed class ContractRegistry : IContractRegistry
         var module = messageAttribute.Module;
         var originalType = _types
             .Where(x => x.FullName is not null &&
-                        x.FullName.Contains($"Inflow.Modules.{module}", StringComparison.InvariantCultureIgnoreCase))
+                        x.FullName.Contains($"SideProjectsIt.Modules.{module}", StringComparison.InvariantCultureIgnoreCase))
             .SingleOrDefault(x => x.Name == contractName);
 
         if (originalType is null)

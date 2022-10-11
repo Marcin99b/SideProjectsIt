@@ -1,4 +1,4 @@
-﻿namespace Inflow.Shared.Infrastructure.Messaging.Dispatchers;
+﻿namespace SideProjectsIt.Shared.Infrastructure.Messaging.Dispatchers;
 
 internal sealed class MessagingOptions
 {

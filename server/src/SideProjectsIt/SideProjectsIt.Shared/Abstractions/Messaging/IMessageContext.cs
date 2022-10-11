@@ -1,7 +1,7 @@
 ﻿using System;
-using Inflow.Shared.Abstractions.Contexts;
+using SideProjectsIt.Shared.Abstractions.Contexts;
 
-namespace Inflow.Shared.Abstractions.Messaging;
+namespace SideProjectsIt.Shared.Abstractions.Messaging;
 
 public interface IMessageContext
 {

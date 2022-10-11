@@ -2,7 +2,7 @@
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
-namespace Inflow.Shared.Abstractions;
+namespace SideProjectsIt.Shared.Abstractions;
 
 public static class Extensions
 {

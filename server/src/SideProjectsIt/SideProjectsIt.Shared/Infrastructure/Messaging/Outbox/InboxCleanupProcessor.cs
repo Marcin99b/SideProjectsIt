@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
-using Inflow.Shared.Abstractions.Time;
+using SideProjectsIt.Shared.Abstractions.Time;
 
-namespace Inflow.Shared.Infrastructure.Messaging.Outbox;
+namespace SideProjectsIt.Shared.Infrastructure.Messaging.Outbox;
 
 internal sealed class InboxCleanupProcessor : BackgroundService
 {

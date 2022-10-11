@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Inflow.Shared.Infrastructure.Api;
+namespace SideProjectsIt.Shared.Infrastructure.Api;
 
 public class ProducesDefaultContentTypeAttribute : ProducesAttribute
 {

@@ -1,4 +1,4 @@
-﻿namespace Inflow.Shared.Abstractions.Messaging;
+﻿namespace SideProjectsIt.Shared.Abstractions.Messaging;
 
 public interface IMessage
 {

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Inflow.Shared.Abstractions.Kernel.Types;
+namespace SideProjectsIt.Shared.Abstractions.Kernel.Types;
 
 public class AggregateId<T> : IEquatable<AggregateId<T>>
 {

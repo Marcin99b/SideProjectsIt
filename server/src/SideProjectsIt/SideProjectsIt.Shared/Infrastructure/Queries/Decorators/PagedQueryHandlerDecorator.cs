@@ -1,8 +1,8 @@
 ﻿using System.Threading;
 using System.Threading.Tasks;
-using Inflow.Shared.Abstractions.Queries;
+using SideProjectsIt.Shared.Abstractions.Queries;
 
-namespace Inflow.Shared.Infrastructure.Queries.Decorators;
+namespace SideProjectsIt.Shared.Infrastructure.Queries.Decorators;
 
 [Decorator]
 internal sealed class PagedQueryHandlerDecorator<TQuery, TResult> : IQueryHandler<TQuery, TResult>

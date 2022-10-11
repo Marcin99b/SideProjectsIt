@@ -10,10 +10,10 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Tokens;
-using Inflow.Shared.Abstractions.Auth;
-using Inflow.Shared.Abstractions.Modules;
+using SideProjectsIt.Shared.Abstractions.Auth;
+using SideProjectsIt.Shared.Abstractions.Modules;
 
-namespace Inflow.Shared.Infrastructure.Auth;
+namespace SideProjectsIt.Shared.Infrastructure.Auth;
 
 public static class Extensions
 {

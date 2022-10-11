@@ -3,9 +3,9 @@ using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 using Microsoft.Extensions.DependencyInjection;
-using Inflow.Shared.Abstractions.Kernel;
+using SideProjectsIt.Shared.Abstractions.Kernel;
 
-namespace Inflow.Shared.Infrastructure.Kernel;
+namespace SideProjectsIt.Shared.Infrastructure.Kernel;
 
 public sealed class DomainEventDispatcher : IDomainEventDispatcher
 {

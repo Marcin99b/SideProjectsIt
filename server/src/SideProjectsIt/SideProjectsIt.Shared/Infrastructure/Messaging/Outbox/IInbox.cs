@@ -1,7 +1,7 @@
 using System;
 using System.Threading.Tasks;
 
-namespace Inflow.Shared.Infrastructure.Messaging.Outbox;
+namespace SideProjectsIt.Shared.Infrastructure.Messaging.Outbox;
 
 public interface IInbox
 {

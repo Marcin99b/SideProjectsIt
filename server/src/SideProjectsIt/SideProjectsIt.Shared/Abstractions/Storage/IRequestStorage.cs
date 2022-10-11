@@ -1,6 +1,6 @@
 using System;
 
-namespace Inflow.Shared.Abstractions.Storage;
+namespace SideProjectsIt.Shared.Abstractions.Storage;
 
 public interface IRequestStorage
 {

@@ -1,11 +1,11 @@
 using System.Threading;
 using System.Threading.Tasks;
-using Inflow.Shared.Abstractions.Commands;
-using Inflow.Shared.Abstractions.Dispatchers;
-using Inflow.Shared.Abstractions.Events;
-using Inflow.Shared.Abstractions.Queries;
+using SideProjectsIt.Shared.Abstractions.Commands;
+using SideProjectsIt.Shared.Abstractions.Dispatchers;
+using SideProjectsIt.Shared.Abstractions.Events;
+using SideProjectsIt.Shared.Abstractions.Queries;
 
-namespace Inflow.Shared.Infrastructure.Dispatchers;
+namespace SideProjectsIt.Shared.Infrastructure.Dispatchers;
 
 internal sealed class InMemoryDispatcher : IDispatcher
 {

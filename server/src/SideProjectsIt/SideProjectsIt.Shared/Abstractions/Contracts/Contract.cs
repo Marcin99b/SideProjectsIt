@@ -4,7 +4,7 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Runtime.Serialization;
 
-namespace Inflow.Shared.Abstractions.Contracts;
+namespace SideProjectsIt.Shared.Abstractions.Contracts;
 
 public abstract class Contract<T> : IContract where T : class
 {

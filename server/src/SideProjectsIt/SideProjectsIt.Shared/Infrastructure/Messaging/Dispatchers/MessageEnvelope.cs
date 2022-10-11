@@ -1,5 +1,5 @@
-﻿using Inflow.Shared.Abstractions.Messaging;
+﻿using SideProjectsIt.Shared.Abstractions.Messaging;
 
-namespace Inflow.Shared.Infrastructure.Messaging.Dispatchers;
+namespace SideProjectsIt.Shared.Infrastructure.Messaging.Dispatchers;
 
 internal record MessageEnvelope(IMessage Message, IMessageContext MessageContext);

@@ -2,9 +2,9 @@
 using System.Threading;
 using System.Threading.Tasks;
 using Microsoft.Extensions.DependencyInjection;
-using Inflow.Shared.Abstractions.Commands;
+using SideProjectsIt.Shared.Abstractions.Commands;
 
-namespace Inflow.Shared.Infrastructure.Commands;
+namespace SideProjectsIt.Shared.Infrastructure.Commands;
 
 internal sealed class CommandDispatcher : ICommandDispatcher
 {

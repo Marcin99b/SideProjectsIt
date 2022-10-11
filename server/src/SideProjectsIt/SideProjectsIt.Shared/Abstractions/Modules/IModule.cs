@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Inflow.Shared.Abstractions.Modules;
+namespace SideProjectsIt.Shared.Abstractions.Modules;
 
 public interface IModule
 {

@@ -3,7 +3,7 @@ using System.IO;
 using System.Security.Cryptography;
 using System.Text;
 
-namespace Inflow.Shared.Infrastructure.Security.Encryption;
+namespace SideProjectsIt.Shared.Infrastructure.Security.Encryption;
 
 internal sealed class Encryptor : IEncryptor
 {

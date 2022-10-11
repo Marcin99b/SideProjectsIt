@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Inflow.Shared.Abstractions.Contracts;
+namespace SideProjectsIt.Shared.Abstractions.Contracts;
 
 public interface IContract
 {

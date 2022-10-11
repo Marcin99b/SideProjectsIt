@@ -5,10 +5,10 @@ using System.Linq;
 using System.Security.Claims;
 using System.Text;
 using Microsoft.IdentityModel.Tokens;
-using Inflow.Shared.Abstractions.Auth;
-using Inflow.Shared.Abstractions.Time;
+using SideProjectsIt.Shared.Abstractions.Auth;
+using SideProjectsIt.Shared.Abstractions.Time;
 
-namespace Inflow.Shared.Infrastructure.Auth;
+namespace SideProjectsIt.Shared.Infrastructure.Auth;
 
 public sealed class AuthManager : IAuthManager
 {

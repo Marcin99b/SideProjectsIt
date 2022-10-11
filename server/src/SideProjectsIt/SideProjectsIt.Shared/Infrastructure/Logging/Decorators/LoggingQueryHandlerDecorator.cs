@@ -1,11 +1,11 @@
 using System.Threading;
 using System.Threading.Tasks;
 using Humanizer;
-using Inflow.Shared.Abstractions.Contexts;
+using SideProjectsIt.Shared.Abstractions.Contexts;
 using Microsoft.Extensions.Logging;
-using Inflow.Shared.Abstractions.Queries;
+using SideProjectsIt.Shared.Abstractions.Queries;
 
-namespace Inflow.Shared.Infrastructure.Logging.Decorators;
+namespace SideProjectsIt.Shared.Infrastructure.Logging.Decorators;
 
 [Decorator]
 internal sealed class LoggingQueryHandlerDecorator<TQuery, TResult> : IQueryHandler<TQuery, TResult>

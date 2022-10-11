@@ -3,9 +3,9 @@ using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 using Microsoft.Extensions.DependencyInjection;
-using Inflow.Shared.Abstractions.Events;
+using SideProjectsIt.Shared.Abstractions.Events;
 
-namespace Inflow.Shared.Infrastructure.Events;
+namespace SideProjectsIt.Shared.Infrastructure.Events;
 
 internal sealed class EventDispatcher : IEventDispatcher
 {

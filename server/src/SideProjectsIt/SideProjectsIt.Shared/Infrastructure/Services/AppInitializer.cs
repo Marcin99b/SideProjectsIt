@@ -5,7 +5,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
-namespace Inflow.Shared.Infrastructure.Services;
+namespace SideProjectsIt.Shared.Infrastructure.Services;
 
 public class AppInitializer : IHostedService
 {

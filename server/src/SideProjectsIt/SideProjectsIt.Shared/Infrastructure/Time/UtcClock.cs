@@ -1,7 +1,7 @@
 ﻿using System;
-using Inflow.Shared.Abstractions.Time;
+using SideProjectsIt.Shared.Abstractions.Time;
 
-namespace Inflow.Shared.Infrastructure.Time;
+namespace SideProjectsIt.Shared.Infrastructure.Time;
 
 public class UtcClock : IClock
 {

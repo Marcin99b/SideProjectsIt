@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Inflow.Shared.Abstractions.Auth;
+namespace SideProjectsIt.Shared.Abstractions.Auth;
 
 public interface IAuthManager
 {

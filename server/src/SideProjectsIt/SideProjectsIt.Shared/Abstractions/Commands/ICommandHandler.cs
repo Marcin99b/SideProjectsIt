@@ -1,7 +1,7 @@
 ﻿using System.Threading;
 using System.Threading.Tasks;
 
-namespace Inflow.Shared.Abstractions.Commands;
+namespace SideProjectsIt.Shared.Abstractions.Commands;
 
 public interface ICommandHandler<in TCommand> where TCommand : class, ICommand
 {

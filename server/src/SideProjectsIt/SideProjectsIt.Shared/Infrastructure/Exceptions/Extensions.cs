@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
-using Inflow.Shared.Abstractions.Exceptions;
+using SideProjectsIt.Shared.Abstractions.Exceptions;
 
-namespace Inflow.Shared.Infrastructure.Exceptions;
+namespace SideProjectsIt.Shared.Infrastructure.Exceptions;
 
 public static class Extensions
 {

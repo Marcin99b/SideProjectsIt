@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Inflow.Shared.Abstractions.Contexts;
+namespace SideProjectsIt.Shared.Abstractions.Contexts;
 
 public interface IContext
 {

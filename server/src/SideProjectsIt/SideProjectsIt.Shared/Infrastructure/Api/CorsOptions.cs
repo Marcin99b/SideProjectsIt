@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace Inflow.Shared.Infrastructure.Api;
+namespace SideProjectsIt.Shared.Infrastructure.Api;
 
 public sealed class CorsOptions
 {

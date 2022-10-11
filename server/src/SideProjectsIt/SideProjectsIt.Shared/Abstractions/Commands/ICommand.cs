@@ -1,6 +1,6 @@
-﻿using Inflow.Shared.Abstractions.Messaging;
+﻿using SideProjectsIt.Shared.Abstractions.Messaging;
 
-namespace Inflow.Shared.Abstractions.Commands;
+namespace SideProjectsIt.Shared.Abstractions.Commands;
 
 //Marker
 public interface ICommand : IMessage

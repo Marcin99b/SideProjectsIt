@@ -1,8 +1,8 @@
 using System;
 using Microsoft.Extensions.Caching.Memory;
-using Inflow.Shared.Abstractions.Storage;
+using SideProjectsIt.Shared.Abstractions.Storage;
 
-namespace Inflow.Shared.Infrastructure.Storage;
+namespace SideProjectsIt.Shared.Infrastructure.Storage;
 
 public class RequestStorage : IRequestStorage
 {

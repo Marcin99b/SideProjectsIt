@@ -1,4 +1,4 @@
-﻿namespace Inflow.Shared.Abstractions.Queries;
+﻿namespace SideProjectsIt.Shared.Abstractions.Queries;
 
 //Marker
 public interface IQuery

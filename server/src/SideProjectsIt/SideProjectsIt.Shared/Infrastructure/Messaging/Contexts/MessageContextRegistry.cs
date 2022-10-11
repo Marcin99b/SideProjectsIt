@@ -1,8 +1,8 @@
 ﻿using System;
 using Microsoft.Extensions.Caching.Memory;
-using Inflow.Shared.Abstractions.Messaging;
+using SideProjectsIt.Shared.Abstractions.Messaging;
 
-namespace Inflow.Shared.Infrastructure.Messaging.Contexts;
+namespace SideProjectsIt.Shared.Infrastructure.Messaging.Contexts;
 
 public class MessageContextRegistry : IMessageContextRegistry
 {

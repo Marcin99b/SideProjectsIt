@@ -2,9 +2,9 @@
 using System.Collections.Concurrent;
 using System.Net;
 using Humanizer;
-using Inflow.Shared.Abstractions.Exceptions;
+using SideProjectsIt.Shared.Abstractions.Exceptions;
 
-namespace Inflow.Shared.Infrastructure.Exceptions;
+namespace SideProjectsIt.Shared.Infrastructure.Exceptions;
 
 internal sealed class ExceptionToResponseMapper : IExceptionToResponseMapper
 {
@@ -13,7 +13,7 @@ internal sealed class ExceptionToResponseMapper : IExceptionToResponseMapper
     public ExceptionResponse Map(Exception exception)
         => exception switch
         {
-            InflowException ex => new ExceptionResponse(new ErrorsResponse(new Error(GetErrorCode(ex), ex.Message))
+            SideProjectsItException ex => new ExceptionResponse(new ErrorsResponse(new Error(GetErrorCode(ex), ex.Message))
                 , HttpStatusCode.BadRequest),
             _ => new ExceptionResponse(new ErrorsResponse(new Error("error", "There was an error.")),
                 HttpStatusCode.InternalServerError)

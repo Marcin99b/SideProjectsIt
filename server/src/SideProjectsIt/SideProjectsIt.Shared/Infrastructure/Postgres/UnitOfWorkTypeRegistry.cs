@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Inflow.Shared.Infrastructure.Postgres;
+namespace SideProjectsIt.Shared.Infrastructure.Postgres;
 
 public class UnitOfWorkTypeRegistry
 {

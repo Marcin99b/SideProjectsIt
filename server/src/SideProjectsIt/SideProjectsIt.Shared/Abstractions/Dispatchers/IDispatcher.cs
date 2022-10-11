@@ -1,10 +1,10 @@
 using System.Threading;
 using System.Threading.Tasks;
-using Inflow.Shared.Abstractions.Commands;
-using Inflow.Shared.Abstractions.Events;
-using Inflow.Shared.Abstractions.Queries;
+using SideProjectsIt.Shared.Abstractions.Commands;
+using SideProjectsIt.Shared.Abstractions.Events;
+using SideProjectsIt.Shared.Abstractions.Queries;
 
-namespace Inflow.Shared.Abstractions.Dispatchers;
+namespace SideProjectsIt.Shared.Abstractions.Dispatchers;
 
 public interface IDispatcher
 {

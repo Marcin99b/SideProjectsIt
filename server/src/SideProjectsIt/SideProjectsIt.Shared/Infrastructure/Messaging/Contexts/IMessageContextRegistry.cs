@@ -1,6 +1,6 @@
-﻿using Inflow.Shared.Abstractions.Messaging;
+﻿using SideProjectsIt.Shared.Abstractions.Messaging;
 
-namespace Inflow.Shared.Infrastructure.Messaging.Contexts;
+namespace SideProjectsIt.Shared.Infrastructure.Messaging.Contexts;
 
 public interface IMessageContextRegistry
 {

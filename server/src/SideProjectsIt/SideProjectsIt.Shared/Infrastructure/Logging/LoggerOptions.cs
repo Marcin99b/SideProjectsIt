@@ -1,7 +1,7 @@
 using System.Collections.Generic;
-using Inflow.Shared.Infrastructure.Logging.Options;
+using SideProjectsIt.Shared.Infrastructure.Logging.Options;
 
-namespace Inflow.Shared.Infrastructure.Logging;
+namespace SideProjectsIt.Shared.Infrastructure.Logging;
 
 public class LoggerOptions
 {

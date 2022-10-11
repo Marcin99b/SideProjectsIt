@@ -4,9 +4,9 @@ using System.Threading.Tasks;
 using Humanizer;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
-using Inflow.Shared.Abstractions.Commands;
+using SideProjectsIt.Shared.Abstractions.Commands;
 
-namespace Inflow.Shared.Infrastructure.Postgres.Decorators;
+namespace SideProjectsIt.Shared.Infrastructure.Postgres.Decorators;
 
 [Decorator]
 public class TransactionalCommandHandlerDecorator<T> : ICommandHandler<T> where T : class, ICommand

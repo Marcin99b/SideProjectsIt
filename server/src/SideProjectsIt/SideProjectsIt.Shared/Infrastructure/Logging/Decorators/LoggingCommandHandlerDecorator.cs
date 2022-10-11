@@ -3,11 +3,11 @@ using System.Threading;
 using System.Threading.Tasks;
 using Humanizer;
 using Microsoft.Extensions.Logging;
-using Inflow.Shared.Abstractions.Commands;
-using Inflow.Shared.Abstractions.Contexts;
-using Inflow.Shared.Abstractions.Messaging;
+using SideProjectsIt.Shared.Abstractions.Commands;
+using SideProjectsIt.Shared.Abstractions.Contexts;
+using SideProjectsIt.Shared.Abstractions.Messaging;
 
-namespace Inflow.Shared.Infrastructure.Logging.Decorators;
+namespace SideProjectsIt.Shared.Infrastructure.Logging.Decorators;
 
 [Decorator]
 internal sealed class LoggingCommandHandlerDecorator<T> : ICommandHandler<T> where T : class, ICommand

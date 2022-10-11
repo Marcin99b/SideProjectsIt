@@ -2,9 +2,9 @@
 using System.Threading;
 using System.Threading.Tasks;
 using Microsoft.Extensions.DependencyInjection;
-using Inflow.Shared.Abstractions.Queries;
+using SideProjectsIt.Shared.Abstractions.Queries;
 
-namespace Inflow.Shared.Infrastructure.Queries;
+namespace SideProjectsIt.Shared.Infrastructure.Queries;
 
 internal sealed class QueryDispatcher : IQueryDispatcher
 {

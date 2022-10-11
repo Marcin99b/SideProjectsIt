@@ -2,7 +2,7 @@
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Inflow.Shared.Abstractions.Modules;
+namespace SideProjectsIt.Shared.Abstractions.Modules;
 
 public interface IModuleSubscriber
 {

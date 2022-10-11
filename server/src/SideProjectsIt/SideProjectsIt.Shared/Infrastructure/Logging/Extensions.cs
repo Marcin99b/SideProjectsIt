@@ -1,8 +1,8 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using Inflow.Shared.Infrastructure.Logging.Decorators;
-using Inflow.Shared.Infrastructure.Logging.Options;
+using SideProjectsIt.Shared.Infrastructure.Logging.Decorators;
+using SideProjectsIt.Shared.Infrastructure.Logging.Options;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -10,12 +10,12 @@ using Microsoft.Extensions.Logging;
 using Serilog;
 using Serilog.Events;
 using Serilog.Filters;
-using Inflow.Shared.Abstractions.Commands;
-using Inflow.Shared.Abstractions.Contexts;
-using Inflow.Shared.Abstractions.Events;
-using Inflow.Shared.Abstractions.Queries;
+using SideProjectsIt.Shared.Abstractions.Commands;
+using SideProjectsIt.Shared.Abstractions.Contexts;
+using SideProjectsIt.Shared.Abstractions.Events;
+using SideProjectsIt.Shared.Abstractions.Queries;
 
-namespace Inflow.Shared.Infrastructure.Logging;
+namespace SideProjectsIt.Shared.Infrastructure.Logging;
 
 public static class Extensions
 {

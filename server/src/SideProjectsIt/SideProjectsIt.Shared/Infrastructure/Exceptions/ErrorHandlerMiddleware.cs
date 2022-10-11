@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
 
-namespace Inflow.Shared.Infrastructure.Exceptions;
+namespace SideProjectsIt.Shared.Infrastructure.Exceptions;
 
 internal sealed class ErrorHandlerMiddleware : IMiddleware
 {

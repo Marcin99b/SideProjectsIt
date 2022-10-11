@@ -1,6 +1,6 @@
 using System;
 
-namespace Inflow.Shared.Abstractions.Messaging;
+namespace SideProjectsIt.Shared.Abstractions.Messaging;
 
 [AttributeUsage(AttributeTargets.Class)]
 public class MessageAttribute : Attribute

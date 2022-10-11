@@ -4,9 +4,9 @@ using System.IO;
 using System.Linq;
 using System.Reflection;
 using Microsoft.Extensions.Configuration;
-using Inflow.Shared.Abstractions.Modules;
+using SideProjectsIt.Shared.Abstractions.Modules;
 
-namespace Inflow.Shared.Infrastructure.Modules;
+namespace SideProjectsIt.Shared.Infrastructure.Modules;
 
 public static class ModuleLoader
 {

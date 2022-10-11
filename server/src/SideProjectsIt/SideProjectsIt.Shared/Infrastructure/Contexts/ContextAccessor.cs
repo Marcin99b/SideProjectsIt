@@ -1,7 +1,7 @@
 ﻿using System.Threading;
-using Inflow.Shared.Abstractions.Contexts;
+using SideProjectsIt.Shared.Abstractions.Contexts;
 
-namespace Inflow.Shared.Infrastructure.Contexts;
+namespace SideProjectsIt.Shared.Infrastructure.Contexts;
 
 public sealed class ContextAccessor
 {

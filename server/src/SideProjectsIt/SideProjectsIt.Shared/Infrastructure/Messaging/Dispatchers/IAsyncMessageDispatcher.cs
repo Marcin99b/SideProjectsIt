@@ -1,8 +1,8 @@
 ﻿using System.Threading;
 using System.Threading.Tasks;
-using Inflow.Shared.Abstractions.Messaging;
+using SideProjectsIt.Shared.Abstractions.Messaging;
 
-namespace Inflow.Shared.Infrastructure.Messaging.Dispatchers;
+namespace SideProjectsIt.Shared.Infrastructure.Messaging.Dispatchers;
 
 public interface IAsyncMessageDispatcher
 {

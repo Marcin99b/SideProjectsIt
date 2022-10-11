@@ -2,12 +2,12 @@ using System;
 using System.Threading;
 using System.Threading.Tasks;
 using Humanizer;
-using Inflow.Shared.Abstractions.Contexts;
+using SideProjectsIt.Shared.Abstractions.Contexts;
 using Microsoft.Extensions.Logging;
-using Inflow.Shared.Abstractions.Events;
-using Inflow.Shared.Abstractions.Messaging;
+using SideProjectsIt.Shared.Abstractions.Events;
+using SideProjectsIt.Shared.Abstractions.Messaging;
 
-namespace Inflow.Shared.Infrastructure.Logging.Decorators;
+namespace SideProjectsIt.Shared.Infrastructure.Logging.Decorators;
 
 [Decorator]
 internal sealed class LoggingEventHandlerDecorator<T> : IEventHandler<T> where T : class, IEvent

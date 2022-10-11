@@ -1,7 +1,7 @@
 ﻿using System.Threading;
 using System.Threading.Tasks;
 
-namespace Inflow.Shared.Abstractions.Events;
+namespace SideProjectsIt.Shared.Abstractions.Events;
 
 public interface IEventHandler<in TEvent> where TEvent : class, IEvent
 {

@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Threading;
 using System.Threading.Tasks;
-using Inflow.Shared.Infrastructure.Contexts;
+using SideProjectsIt.Shared.Infrastructure.Contexts;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
-using Inflow.Shared.Abstractions.Modules;
+using SideProjectsIt.Shared.Abstractions.Modules;
 
-namespace Inflow.Shared.Infrastructure.Messaging.Dispatchers;
+namespace SideProjectsIt.Shared.Infrastructure.Messaging.Dispatchers;
 
 internal sealed class AsyncDispatcherJob : BackgroundService
 {

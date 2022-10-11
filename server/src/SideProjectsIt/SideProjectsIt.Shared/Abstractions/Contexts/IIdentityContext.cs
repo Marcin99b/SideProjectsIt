@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Inflow.Shared.Abstractions.Contexts;
+namespace SideProjectsIt.Shared.Abstractions.Contexts;
 
 public interface IIdentityContext
 {

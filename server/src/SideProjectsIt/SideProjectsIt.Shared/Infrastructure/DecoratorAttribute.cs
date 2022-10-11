@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Inflow.Shared.Infrastructure;
+namespace SideProjectsIt.Shared.Infrastructure;
 
 // Marker
 [AttributeUsage(AttributeTargets.Class)]

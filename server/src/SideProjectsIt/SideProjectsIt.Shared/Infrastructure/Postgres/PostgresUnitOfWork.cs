@@ -2,7 +2,7 @@
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 
-namespace Inflow.Shared.Infrastructure.Postgres;
+namespace SideProjectsIt.Shared.Infrastructure.Postgres;
 
 public abstract class PostgresUnitOfWork<T> : IUnitOfWork where T : DbContext
 {

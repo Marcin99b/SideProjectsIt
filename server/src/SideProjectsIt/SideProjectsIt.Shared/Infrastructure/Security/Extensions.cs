@@ -1,9 +1,9 @@
 ﻿using System;
-using Inflow.Shared.Infrastructure.Security.Encryption;
+using SideProjectsIt.Shared.Infrastructure.Security.Encryption;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 
-namespace Inflow.Shared.Infrastructure.Security;
+namespace SideProjectsIt.Shared.Infrastructure.Security;
 
 public static class Extensions
 {
