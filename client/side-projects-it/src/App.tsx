@@ -1,14 +1,25 @@
-import { Box, ChakraProvider } from '@chakra-ui/react';
-import React from 'react';
+import { ChakraProvider, Container, TabPanel, TabPanels, Tabs } from '@chakra-ui/react'
+import React, { FC } from 'react'
+import { Navbar } from './Components/Navbar/Navbar'
+import { AddNewIdea } from './Pages/AddNewIdea/AddNewIdea'
+import { Ideas } from './Pages/Ideas/Ideas'
 
-function App() {
+export const App: FC = () => {
   return (
     <ChakraProvider>
-      <Box as='button' borderRadius='md' bg='tomato' color='white' px={4} h={8}>
-        Button
-      </Box>
+      <Container maxWidth={'1820px'} marginTop={'15px'}>
+        <Tabs variant="soft-rounded" colorScheme="green">
+          <Navbar />
+          <TabPanels>
+            <TabPanel>
+              <Ideas />
+            </TabPanel>
+            <TabPanel>
+              <AddNewIdea />
+            </TabPanel>
+          </TabPanels>
+        </Tabs>
+      </Container>
     </ChakraProvider>
-  );
+  )
 }
-
-export default App;
