@@ -4,8 +4,20 @@ import { FC } from 'react'
 export const Navbar: FC = () => {
   return (
     <TabList>
-      <Tab>List</Tab>
-      <Tab>Add</Tab>
+      <Tab
+        onClick={() => {
+          window.location.pathname = '/'
+        }}
+      >
+        List
+      </Tab>
+      <Tab
+        onClick={() => {
+          window.location.pathname = '/add'
+        }}
+      >
+        Add
+      </Tab>
     </TabList>
   )
 }
