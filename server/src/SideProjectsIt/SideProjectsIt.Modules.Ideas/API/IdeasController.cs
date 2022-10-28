@@ -13,10 +13,19 @@ namespace SideProjectsIt.Modules.Ideas.API
     [Route("ideas")]
     public class IdeasController : ControllerBase
     {
-        [HttpGet]
-        public Task<ActionResult<IEnumerable<Idea>>> Get()
+        private readonly IIdeasProvider provider;
+
+        public IdeasController(IIdeasProvider provider)
         {
-            throw new NotImplementedException();
+            this.provider = provider;
+        }
+
+        [HttpGet]
+        public async Task<ActionResult<Idea[]>> Get()
+        {
+            var ideas = provider.Get();
+            await Task.CompletedTask;
+            return Ok(ideas!);
         }
 
         [HttpGet("{id:int}")]
