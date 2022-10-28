@@ -11,6 +11,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bootstrapper", "Bootstrappe
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{96F20240-CBB4-40D1-9863-CC7247DC6DFB}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{2EFF8E3C-6AF3-4E6E-B965-19D113F3E833}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SideProjectsIt.Shared.Persistance", "SideProjectsIt.Shared.Persistance\SideProjectsIt.Shared.Persistance.csproj", "{ABAE5D14-9F35-4A70-B0F8-4995926E88D0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +29,10 @@ Global
 		{C6F68B8A-CBD6-4029-85E7-E306FC8C02D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C6F68B8A-CBD6-4029-85E7-E306FC8C02D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C6F68B8A-CBD6-4029-85E7-E306FC8C02D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABAE5D14-9F35-4A70-B0F8-4995926E88D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABAE5D14-9F35-4A70-B0F8-4995926E88D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABAE5D14-9F35-4A70-B0F8-4995926E88D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABAE5D14-9F35-4A70-B0F8-4995926E88D0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +40,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{5E2859B8-1343-4195-9555-5F7C1751D5D9} = {96F20240-CBB4-40D1-9863-CC7247DC6DFB}
 		{C6F68B8A-CBD6-4029-85E7-E306FC8C02D6} = {CF1FF0DC-03EF-4EF2-94BF-C35EF1EAF973}
+		{ABAE5D14-9F35-4A70-B0F8-4995926E88D0} = {2EFF8E3C-6AF3-4E6E-B965-19D113F3E833}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2471B86D-12C8-473F-9236-BE225ADCB371}

@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="NewFolder\" />
+    <ProjectReference Include="..\SideProjectsIt.Modules.Ideas\SideProjectsIt.Modules.Ideas.csproj" />
   </ItemGroup>
 
 </Project>

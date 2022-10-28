@@ -4,9 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SideProjectsIt.Modules.Ideas.Domain.Entities
+namespace SideProjectsIt.Shared.Persistance.Database
 {
-    public record Idea
-    {
-    }
+    public record Entity(int Id);
 }
